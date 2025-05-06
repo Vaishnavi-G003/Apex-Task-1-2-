@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      color: #003366;
+      font-size: 32px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    h2, h3 {
+      color: #004080;
+      font-size: 24px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    p {
+      color: #333;
+      font-size: 18px;
+      line-height: 1.6;
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 10px 20px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin: 20px auto;
+      display: block;
+    }
+
+    .button {
+      display: block;
+      background-color: #4a90e2;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin: 30px auto;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .button:hover {
+      background-color: #7a4de2;
+    }
+
+    a img {
+      transition: transform 0.3s;
+    }
+
+    a:hover img {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <h1>Pandas</h1>
+  <p>
+    Pandas are living animals, specifically a type of bear.<br />
+    Giant pandas are well-known for their black and white fur and their diet of primarily bamboo.<br />
+    Pandas live mainly in temperate forests high in the mountains of southwest China, where they subsist almost entirely on bamboo.
+    They must eat around 26 to 84 pounds of it every day, depending on what part of the bamboo they are eating.
+    They use their enlarged wrist bones that function as opposable thumbs.
+  </p>
+
+  <h2>For more panda images, click below:</h2>
+  <a href="https://in.pinterest.com/search/pins/?q=panda" target="_blank">
+    <img src="https://via.placeholder.com/200x100.png?text=Panda+Gallery" alt="Panda Gallery" />
+  </a>
+
+  <h3>Sample Panda Image</h3>
+  <img src="Pandas -1.webp" alt="Panda" >
+
+  <button class="button" onclick="showAlert()">Click Me</button>
+
+  <script>
+    function showAlert() {
+      alert("You clicked the button! Welcome to the Panda collection.");
+    }
+  </script>
+</body>
+</html>
